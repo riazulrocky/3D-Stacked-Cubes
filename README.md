@@ -1,9 +1,22 @@
-# 3D Stacked Cubes Visualization
+# 🧊 3D Stacked Cubes with Python
 
-This project demonstrates how to visualize stacked 3D cubes in Python using Matplotlib and NumPy. It provides a simple example of creating and rendering cubes in 3D space with custom colors and transparency.
+A simple and fun project that shows how to create and render **3D cubes** in Python using `matplotlib`.  
+The script builds three cubes stacked on top of each other, each with its own color.  
 
-# Features
-- Create multiple 3D cubes with customizable size.
-- Stack cubes along the Z-axis.
-- Assign different colors to each cube for clarity.
-- Adjustable viewpoint and aspect ratio.
+Because the cube vertices are written in **homogeneous coordinates**, it’s also a good starting point if you want to play around with transformations like **rotation, scaling, or translation**.
+
+---
+
+## ✨ What’s Inside
+- A cube generator that works in 3D.
+- Different colors, edges, and transparency for each cube.
+- A 3D plot you can rotate and explore interactively.
+- High-quality `.png` export of your cubes.
+
+---
+
+## 📦 Requirements
+You’ll need Python and these packages:
+
+```bash
+pip install numpy matplotlib
